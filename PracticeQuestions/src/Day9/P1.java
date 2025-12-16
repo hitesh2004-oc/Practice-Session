@@ -1,7 +1,7 @@
 package Day9;
 // String - Synchronized, Slow Perfomance, Thread Safe, Immutable
 // StringBulider - Not Synchronized, Fast Perfomance, Not Thread Safe, Mutable
-// StringBuffer - Not Synchronized,  Fast Perfomance, Not Thread Safe, Mutable
+// StringBuffer - Not Synchronized,  Slower Perfomance, Thread Safe, Mutable
 // Uses of StringBuffer and Increasing Capacity of String Buffer //
 // Default Capacity of String Buffer is 16 [byte]
 public class P1 {
@@ -22,7 +22,9 @@ public class P1 {
 		
 		//Giving Capacity to StringBuffer..//
 	    //Using ensureCapacity() We can Also give the Capacity for StringBuffer//
-        //sb.ensureCapacity(40);
+        sb.ensureCapacity(40);
+        System.out.println(sb.capacity());
+		
 
 	}
 }
