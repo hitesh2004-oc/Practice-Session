@@ -45,7 +45,7 @@ public class P1 {
 		System.out.println(s1 + s2);
 		
 		//..Use of trim()..//
-		String st = "    hitesh  malviya   ";
+		String st = "    hitesh malviya   ";
 		System.out.println(st.trim());
 		
 		//..Use EqualsIgnoreCase()..//
