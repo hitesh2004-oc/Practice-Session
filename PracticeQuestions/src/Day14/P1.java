@@ -7,8 +7,8 @@ public class P1 {
      //(1) Create File ...[You Have to Referesh Main Package]
 	    File f = new File("Hitesh.txt");
 	    File a = new File("Angular.txt");
-	    File b = new File(".txt");
-	    File c = new File("Angular.txt");
+	    File b = new File("SpringBoot.txt");
+	    File c = new File("Js.txt");
 	    try {
 	 	f.createNewFile();
 	    a.createNewFile();
