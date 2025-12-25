@@ -1,10 +1,13 @@
 package Day14;
 import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
 //..........File Handling..........//
 public class P1 {
 	public static void main (String[] args) {
 		// File Operation //
-     //(1) Create File ...[You Have to Referesh Main Package]
+      //(1) Create File ...[You Have to Referesh Main Package]
 	    File f = new File("Hitesh.txt");
 	    File a = new File("Angular.txt");
 	    File b = new File("SpringBoot.txt");
@@ -45,6 +48,33 @@ public class P1 {
 				System.out.println(p+"  it is Folder");
 			}
 		}
-	      
+	   //(4) Write the Data inside the File
+		  try {
+				FileWriter fw = new FileWriter("Hitesh.txt");
+				fw.write("This is My First File Data Write");
+				fw.close();
+			} catch (IOException e) {
+				System.out.println(e);	
+			}
+	   //(5) Read the File Data......
+			File r = new File("Hitesh.txt");
+			try {
+				Scanner sc = new Scanner(r);
+				while(sc.hasNextLine()) {
+					String line = sc.nextLine();
+						System.out.println(line);
+				}
+					sc.close();
+				}
+			catch(Exception e) {
+				System.out.println(e);
+				}
+	  //(6) Delete the File on Exiting Folder
+			if(r.delete()) {
+				System.out.println("Deleted the File");
+			}
+			else {
+				System.out.println("Not Found the File");
+			}     
 	}
 }
