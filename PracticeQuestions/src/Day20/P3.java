@@ -29,7 +29,6 @@ public class P3 {
 		/*Calculate the Vector Capacity
 		 * (cc[currCapacity]*3/2)+1
 		 */
-		
 	
 	}
 
