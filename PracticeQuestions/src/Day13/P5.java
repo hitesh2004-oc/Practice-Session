@@ -30,6 +30,17 @@ public class P5 {
 		}
 		System.out.println("main end");
 		
+		/* Case 1:- No Argument
+		   main Begin
+           Please Provide the Value
+           java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+           Please Provide Integer Number
+           java.lang.NumberFormatException: Cannot parse null string
+           Please Don't Provide Zero
+           java.lang.ArithmeticException: / by zero
+           main end 
+		 */
+		
 	}
 
 }
