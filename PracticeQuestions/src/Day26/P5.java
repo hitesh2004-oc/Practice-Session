@@ -67,7 +67,6 @@ public class P5 {
 	    //(10)List ke elements par custom calculation lagao using map().
 	    list.stream().map(i->i+3*3-2).forEach(System.out::println);
 		
-	
 	    
 	}
 }

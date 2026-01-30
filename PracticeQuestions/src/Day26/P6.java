@@ -1,5 +1,4 @@
 package Day26;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -59,7 +58,6 @@ public class P6 {
 	    
 	    //(10)List ko sorted order me print karo.
 	    list.stream().sorted().forEach(i->System.out.println(i));
-		
 		
 	}
 }
