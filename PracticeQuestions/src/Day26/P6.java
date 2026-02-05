@@ -2,7 +2,8 @@ package Day26;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.OptionalDouble;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 //.........Basic Question of stream..........//
 public class P6 {
@@ -58,6 +59,17 @@ public class P6 {
 	    
 	    //(10)List ko sorted order me print karo.
 	    list.stream().sorted().forEach(i->System.out.println(i));
+	    System.out.println();
+	    
+	    Integer mostFrequent =
+	    	    list.stream()
+	    	        .collect(Collectors.groupingBy(e -> e, Collectors.counting()))
+	    	        .entrySet().stream()
+	    	        .max(Map.Entry.comparingByValue())
+	    	        .map(Map.Entry::getKey)
+	    	        .orElse(null);
+
+	    System.out.println(mostFrequent);
 		
 	}
 }
