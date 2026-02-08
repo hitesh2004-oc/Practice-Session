@@ -63,7 +63,7 @@ public class P1 {
 		 lhs.add("vinod");
 		 System.out.println(lhs);
 		 
-		 // TreeSet
+		 // TreeSet // Order in Numbers
 		 Set<String> ts = new TreeSet<>(); // Alphabetic Order or Ascending Order 
 		 ts.add("hitesh");
 		 ts.add("harsh");
