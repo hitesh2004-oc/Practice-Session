@@ -1,7 +1,7 @@
 package Day24;
 
 import java.util.ArrayList;
-
+// Create ArrayList and Perform Add and Clone method
 public class P1 {
 	public static void main(String[] args) {
 		ArrayList al = new ArrayList();
