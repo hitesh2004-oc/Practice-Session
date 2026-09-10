@@ -27,8 +27,8 @@ public class P1 {
 	    
 	    //Create File Inside the Folder
 	    File a1 = new File(f,"Test.txt");
-	    
-	    try {
+	    // We use Try & Catch for Create File without Exception 
+	    try{
 			a1.createNewFile();
 		} catch (Exception e) {
 			System.out.println(e);
