@@ -6,7 +6,6 @@ public class P1 {
 	public static void main(String[] args) {
 		String str1 = "School Master";
 		String str2 = "The Classroom";
-         
 		//Step 1: - Remove Blank Spaces in Strings
 		str1 = str1.replace(" ", "");
 		str2 = str2.replace(" ", "");
@@ -24,7 +23,7 @@ public class P1 {
 		Arrays.sort(arr2);
 		
         //Step 5 : - Check Condition Anagram or Not
-		if (Arrays.equals(arr1, arr2)) {
+		if(Arrays.equals(arr1, arr2)) {
 			System.out.println("Anagram");
 		} else
 			System.out.println("Not Anagram");
