@@ -13,13 +13,13 @@ import java.util.TreeSet;
 //------ Collection Framework -------//
 public class P1 {
 	public static void main(String[] args) {
-// List Example
+        // List Example
 		List<String> ls = new ArrayList();
 		ls.add("hitesh");
 		ls.add("rahul");
 		ls.add("vinod");
 		System.out.println(ls); // Ordered Order // Added Order //Order Preserved
-// Set Example[ Uniques ]
+        // Set Example[ Uniques ]
 		Set<Integer> unique = new HashSet<>();
 		unique.add(10);
 		unique.add(20);
@@ -27,7 +27,7 @@ public class P1 {
 		unique.add(10);
 		System.out.println(unique); // Unordered order
 		
- // Map Example Key Unique value can be Duplicate
+         // Map Example Key Unique value can be Duplicate
 		 Map<Integer, String> map = new HashMap<>();
 		 map.put(1,"hitesh");
 		 map.put(2,"harsh");
@@ -72,5 +72,4 @@ public class P1 {
 		 System.out.println(ts);
 		 
 	}
-
 }
