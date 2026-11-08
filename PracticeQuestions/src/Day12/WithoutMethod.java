@@ -4,7 +4,6 @@ import java.util.Arrays;
  //....Check Anagram or Not Without Using Inbuilt Method....//
 public class WithoutMethod {
 	public static void main(String[] args) {
-		
 		String str1 = "School Master";
 		String str2 = "The Classroom";
 		
