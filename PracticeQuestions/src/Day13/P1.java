@@ -24,7 +24,6 @@ public class P1 {
 	   //...Uses Of Try & Catch...//
 		int a = 10;
 		int b = 0;
-	    
 		System.out.println("Starting Point"); // Source
 		try {
 			int c = a / b;  //Problem Statement
