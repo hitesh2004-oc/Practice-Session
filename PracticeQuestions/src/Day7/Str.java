@@ -12,7 +12,6 @@ public class Str {
     	  String s4 = new String("Java Program");
     	  String s5 = new String("Java Program");
     	  String s6 = new String("Java Program");
-    	  
     	  System.out.println(s2);
     	  //...Comparison..//
     	  //..Check Content..//
