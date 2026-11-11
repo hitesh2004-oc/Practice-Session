@@ -37,7 +37,5 @@ public class P1 {
 			String line = sc.nextLine();
 			System.out.println(line);
 		}
-
 	}
-
 }
