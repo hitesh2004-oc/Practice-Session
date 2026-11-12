@@ -69,7 +69,6 @@ public class P1 implements Serializable {
          * After deserialization, it will be null.
          */
         System.out.println(ps.pass);   // null
-
         System.out.println("---De-Serialization Completed---");
     }
 }
