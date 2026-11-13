@@ -2,7 +2,6 @@ package Day17;
 
 // Custom exception class to handle minimum order violations
 public class MinimumOrderException extends Exception {
-
     /**
      * Constructor of MinimumOrderException
      * @param message Error message that explains the exception
