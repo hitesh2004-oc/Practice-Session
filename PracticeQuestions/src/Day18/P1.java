@@ -1,6 +1,5 @@
 package Day18; 
 // Java 8 Functional Interface and Lambda Expression //
-
 // Functional Interface
 // It contains only one abstract method (SAM – Single Abstract Method)
 interface I {
