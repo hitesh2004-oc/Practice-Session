@@ -22,7 +22,6 @@ class B implements I{
 		System.out.println("m1 Method in class B");
 	}
 }
-
 public class P1 {
 	public static void main(String[] args) {
 		I i1 = new A();
