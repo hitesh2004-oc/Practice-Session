@@ -9,7 +9,6 @@ interface I1{
 // Only have one Abstract Method
 interface I2{
 	void m1();
-	
 	default void m2() {
 		System.out.println("Default Method m2");
 	}
