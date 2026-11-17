@@ -10,7 +10,6 @@ public class P2 {
 						System.out.print("  ");
 						continue;
 					}
-					
 					System.out.print("* ");
 				}else {
 					System.out.print("  ");
