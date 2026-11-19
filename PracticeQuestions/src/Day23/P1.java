@@ -13,7 +13,6 @@ class Digit {
 		return y>-10 && y<10;
 	}
 }
-
 public class P1 {
 	public static void main(String[] args) {
 		A a1 = Digit::isCheckSingleDigit;
