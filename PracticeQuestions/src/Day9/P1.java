@@ -12,7 +12,6 @@ public class P1 {
 		// sb length is 16 //
 		System.out.println(sb.length());
 		System.out.println(sb.capacity()); //Capacity - 16//
-		
 		sb.append("h");
 		//(c * 2) + 2 // c[Current Capicity]
 		//(16 * 2) + 2
