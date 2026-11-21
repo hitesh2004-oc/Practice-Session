@@ -30,6 +30,6 @@ public class Rotation {
 					System.out.print(arr[i][j]+" ");
 				}
 				System.out.println();
-			}
+		}
 	}
 }
