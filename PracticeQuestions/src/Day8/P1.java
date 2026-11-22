@@ -11,7 +11,6 @@ public class P1 {
 		s2.concat("malviya");  //[Concat Simply Merge Two String]
 //Now s2 Refer to another Object and old Object does not refer by any ref.//		
       	s2 = s2.concat("malviya"); 
-      	
       	System.out.println(s2);
 		System.out.println(s1.equals(s2));
 		
