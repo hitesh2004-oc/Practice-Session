@@ -16,7 +16,6 @@ public class P1 {
 		
 		System.out.println(list);
 		Stream<Integer> stream = list.stream();
-		
 		Stream<Integer> streamsort = stream.sorted();
 		streamsort.forEach(n ->System.out.println(n));
 		
