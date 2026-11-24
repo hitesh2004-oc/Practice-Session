@@ -24,5 +24,5 @@ public class A extends Abs {
 		I1 i = new A();
 		i.show();
 		System.out.println(I1.a);
-	}
+}
 }
