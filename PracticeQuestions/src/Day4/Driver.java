@@ -10,7 +10,6 @@ class Car implements Vehicle {
 	public void start() {
 		System.out.println("Starting car engine....");
 	}
-
 	@Override
 	public void stop() {
 		System.out.println("Stopping car engine...");
@@ -21,7 +20,6 @@ class Truck implements Vehicle {
     public void start() {
         System.out.println("Starting truck engine......");
     }
-
     @Override
     public void stop() {
         System.out.println("Stopping truck engine.......");
@@ -31,7 +29,6 @@ public class Driver extends Truck {
 	 public void operateVehicle() {
 	        System.out.println("Driver interaction:");
 	    }
-
 	    public static void main(String[] args) {
 	        Driver driver = new Driver();
 	        Car c1 = new Car();
