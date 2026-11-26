@@ -11,7 +11,6 @@ public class P1 {
 	public static void main(String[] args) {
 		//........Multiple Value Access.......//
 		Courses[] val = Courses.values();
-		
 		for(Courses i : val) {
 			System.out.println(i);
 		}
