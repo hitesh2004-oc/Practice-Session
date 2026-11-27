@@ -23,7 +23,6 @@ public class D {
 		// ....Access inner class Approach 2....//
 		Outer.Inner oi1 = new Outer().new Inner();
 		oi1.innerLogic();
-
 		Outer o1 = new Outer();
 		o1.accessInner();
 		o1.outerLogic();
